@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <img class="burgertoggle" src="/src/burgertoggle.png" alt="">
-        <div class="left-slider">
+        <img class="sclider" src="/src/slider.jpeg" alt="" onclick="sclider()">
+        <div class="left-slider" id="myDIV">
             <div class="down-left">
                 <div class="historybar">
                     <h3>History</h3>
@@ -29,11 +29,13 @@
             </div>
         </div>
         <div class="main-container">
+            <div class="login-profile-container">
+                <a href="/login & signup module/login.html">
+                    <button class="sigin-btn main-btns">Signup / login</button>
+                </a>
+                <img class="burgertoggle" src="/src/burgertoggle.png" alt="">
+            </div>
             <img class="justice-hammer-image" src="/src/jhi.jpg" alt="">
-            <a href="/login & signup module/login.html">
-                <button class="sigin-btn main-btns">Signup / login</button>
-            </a>
-            <button class="main-btns">profile</button>
             <div class="input-bar">
                 <img class="attachment-img" src="/src/attachment.png" alt="">
                 <input type="text" name="" id="input-box" placeholder="enter ur text">
@@ -69,5 +71,6 @@
             
         </div> 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
